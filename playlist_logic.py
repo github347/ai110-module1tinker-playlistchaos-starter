@@ -168,10 +168,11 @@ def search_songs(
 
     for song in songs:
         value = str(song.get(field, "")).lower()
-        if value and value in q:
+        if q in value:  # <-- correct partial match
             filtered.append(song)
 
     return filtered
+
 
 
 def lucky_pick(
