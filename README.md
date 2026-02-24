@@ -1,3 +1,10 @@
+# Weekly TF Task 1
+
+The core concept students needed to understand is how to adapt to new codes and framework using AI as help and resources. Students are most likely to struggle using streamlit for the first time and setting up their environment to start working and interact with Github. The Copilot AI was helpful in understanding the new code and what is happening in it. For example explaining why the search function wasn’t working properly. Did not use it enough to find some misleading information. One way I would guide a student without giving the answer is to encourage them to ask the AI more questions and break down the code to understand it. 
+
+
+
+
 # Playlist Chaos
 
 Your AI assistant tried to build a smart playlist generator. The app runs, but some of the behavior is unpredictable. Your task is to explore the app, investigate the code, and use an AI assistant to debug and improve it.
