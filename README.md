@@ -2,7 +2,12 @@
 
 The core concept students needed to understand is how to adapt to new codes and framework using AI as help and resources. Students are most likely to struggle using streamlit for the first time and setting up their environment to start working and interact with Github. The Copilot AI was helpful in understanding the new code and what is happening in it. For example explaining why the search function wasn’t working properly. Did not use it enough to find some misleading information. One way I would guide a student without giving the answer is to encourage them to ask the AI more questions and break down the code to understand it. 
 
+## Fixed
+- Fixed the search function to work on partial search
 
+- ## Review
+ - the `normalize_title` can not be to `.lower()` without losing the display format. Alternative include using `title.()` on display or an another field (either for display or comapraison) that would be more complex.
+ - The current code check for "Hype" first then "Chill", if the the song match both criteria? It classify as Hype while probably should be be Mixed? e.g "genre rock (Hype), energy 1 (Chill)". Suggesting to check them separatly and give "Mixed" priority over "Hype".
 
 
 # Playlist Chaos
