@@ -5,7 +5,7 @@ The core concept students needed to understand is how to adapt to new codes and 
 ## Fixed
 - Fixed the search function to work on partial search
 
-- ## Review
+## Review
  - the `normalize_title` can not be to `.lower()` without losing the display format. Alternative include using `title.()` on display or an another field (either for display or comapraison) that would be more complex.
  - The current code check for "Hype" first then "Chill", if the the song match both criteria? It classify as Hype while probably should be be Mixed? e.g "genre rock (Hype), energy 1 (Chill)". Suggesting to check them separatly and give "Mixed" priority over "Hype".
 
