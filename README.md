@@ -4,6 +4,10 @@ The core concept students needed to understand is how to adapt to new codes and 
 
 ## Fixed
 - Fixed the search function to work on partial search
+- Fixed total song stats miscount (and Hype ratio)
+- Fixed average energy in statts
+- Fixed edge case (emply list) for random songs return cases.
+
 
 ## Review
  - the `normalize_title` can not be to `.lower()` without losing the display format. Alternative include using `title.()` on display or an another field (either for display or comapraison) that would be more complex.
